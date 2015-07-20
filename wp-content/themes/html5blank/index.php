@@ -13,18 +13,27 @@
 					<hr/>
 					<hr id ="linetwo"/>
 				</div>
-				<!-- Spacer! -->
-				<div class = "col-md-3"></div>
-				<div class = "col-md-3">
-					<button class ="btn btn-lg">Item goes here</button>
+				<div class = "col-md-6 text-right">
+					<button class ="btn btn-lg" id = "squad">Visit us on Kickstarter!</button>
 				</div>
-				<div class = "col-md-3">
+				<div class = "col-md-6 text-left">
 					<button class ="btn btn-lg">Visit us on Kickstarter!</button>
 				</div>
-				<!-- Spacer! -->
-				<div class = "col-md-3"></div>
 			</div>
 		</div>
 	</div>
 </header>
+<section id="progress">
+	<div class="container">
+		<div class = "row informatics">
+			<div class="col-md-6 text-right">
+				<h1 id = "percent">100%</h1>
+			</div>
+			<div class ="col-md-6 text-left">
+				<h2><span>$10,000</span> raised of $50,000</h2>
+				<h3>1,000 Backers</h3>
+			</div>
+		</div>
+	</div>
+</section>
 <?php get_footer(); ?>

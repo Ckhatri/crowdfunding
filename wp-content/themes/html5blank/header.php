@@ -9,5 +9,6 @@
 <script>try{Typekit.load();}catch(e){}</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
 </head>
 <body>

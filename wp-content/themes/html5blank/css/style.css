@@ -1,4 +1,4 @@
-header {
+body header {
   height: 100%;
   width: auto;
   max-width: 100%;
@@ -8,39 +8,51 @@ header {
   --webkit-background-size: cover;
   position: relative;
 }
-header .headerinfo {
+body header .headerinfo {
   height: 100%;
   width: 100%;
   position: relative;
 }
-header .headerinfo .vertical-align {
+body header .headerinfo .vertical-align {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-header .headerinfo .row {
+body header .headerinfo .row {
   width: 100%;
 }
-header .headerinfo h1 {
+body header .headerinfo h1 {
   color: #4b88a2;
   font-size: 5em;
   font-weight: 900;
   letter-spacing: 6px;
 }
-header .headerinfo h2 {
+body header .headerinfo h2 {
   color: #252627;
   font-size: 4em;
 }
-header .headerinfo hr {
+body header .headerinfo hr {
   border-top: 1px solid #4b88a2;
   width: 20%;
 }
-header .headerinfo #linetwo {
+body header .headerinfo #linetwo {
   width: 15%;
   margin-top: -10px;
 }
-header .headerinfo button {
+body header .headerinfo button {
   background-color: #4b88a2;
   color: #d3d4d9;
   font-size: 2em;
+}
+body #progress {
+  background-color: #4b88a2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #d3d4d9;
+}
+body #progress .informatics {
+  width: 100%;
+}
+body #progress .informatics h1 {
+  font-size: 4em;
 }

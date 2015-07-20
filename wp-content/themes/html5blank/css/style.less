@@ -4,56 +4,73 @@
 @black: #252627;
 @white: #FFF9FB;
 
-header {
-	height: 100%;
-	width: auto;
-	max-width: 100%;
-	overflow: hidden;
-	background: url('../img/clouds.jpeg') no-repeat center;
-	background-size: cover;
-	--webkit-background-size: cover;
-	position: relative;
-
-	.headerinfo {
+body {
+	header {
 		height: 100%;
-		width: 100%;
+		width: auto;
+		max-width: 100%;
+		overflow: hidden;
+		background: url('../img/clouds.jpeg') no-repeat center;
+		background-size: cover;
+		--webkit-background-size: cover;
 		position: relative;
-		.vertical-align {
-			display: flex;
-			align-items: center;
-			flex-direction: row;
-		}
 
-		.row {
+		.headerinfo {
+			height: 100%;
 			width: 100%;
+			position: relative;
+			.vertical-align {
+				display: flex;
+				align-items: center;
+				flex-direction: row;
+			}
+
+			.row {
+				width: 100%;
+			}
+
+			h1 {
+				color: @blue;
+				font-size: 5em;
+				font-weight: 900;
+				letter-spacing: 6px;
+			}
+
+			h2 {
+				color: @black;
+				font-size: 4em;
+			}
+
+			hr {
+				border-top: 1px solid @blue;
+				width: 20%;
+			}
+
+			#linetwo {
+				width: 15%;
+				margin-top: -10px;
+			}
+
+			button {
+				background-color: @blue;
+				color: @gray;
+				font-size: 2em;
+			}
+		}
+	}
+
+
+	#progress {
+		background-color: @blue;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		color: @gray;
+		.informatics {
+			width: 100%;
+			h1 {
+				font-size: 4em;
+			}
 		}
 
-		h1 {
-			color: @blue;
-			font-size: 5em;
-			font-weight: 900;
-			letter-spacing: 6px;
-		}
-
-		h2 {
-			color: @black;
-			font-size: 4em;
-		}
-
-		hr {
-			border-top: 1px solid @blue;
-			width: 20%;
-		}
-
-		#linetwo {
-			width: 15%;
-			margin-top: -10px;
-		}
-
-		button {
-			background-color: @blue;
-			color: @gray;
-			font-size: 2em;
-		}
 	}
 }
