@@ -4,6 +4,56 @@
 @black: #252627;
 @white: #FFF9FB;
 
-h1 {
-	color: @mainRed;
+header {
+	height: 100%;
+	width: auto;
+	max-width: 100%;
+	overflow: hidden;
+	background: url('../img/clouds.jpeg') no-repeat center;
+	background-size: cover;
+	--webkit-background-size: cover;
+	position: relative;
+
+	.headerinfo {
+		height: 100%;
+		width: 100%;
+		position: relative;
+		.vertical-align {
+			display: flex;
+			align-items: center;
+			flex-direction: row;
+		}
+
+		.row {
+			width: 100%;
+		}
+
+		h1 {
+			color: @blue;
+			font-size: 5em;
+			font-weight: 900;
+			letter-spacing: 6px;
+		}
+
+		h2 {
+			color: @black;
+			font-size: 4em;
+		}
+
+		hr {
+			border-top: 1px solid @blue;
+			width: 20%;
+		}
+
+		#linetwo {
+			width: 15%;
+			margin-top: -10px;
+		}
+
+		button {
+			background-color: @blue;
+			color: @gray;
+			font-size: 2em;
+		}
+	}
 }
