@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>appLandingPage</title>
+<title>crowdfunding</title>
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css">
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
